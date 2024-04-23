@@ -590,8 +590,8 @@ mod tests {
 
         assert_eq!(expr, Expr::Literal(Literal::Radix(LitRadix {
             base: 64,
-            value: "++/+//".to_string(),
-            span: 0..9,
+            value: "++/+".to_string(),
+            span: 0..7,
         })));
     }
 
